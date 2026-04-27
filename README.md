@@ -1,17 +1,32 @@
-# 🌐 Simple REST API
+# Simple REST API
 
-A basic Node.js + Express REST API with routes for users and products. Perfect for beginners!
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![License](https://img.shields.io/github/license/AnandRajput-ASR/simple-rest-api)
 
-## 🚀 How to Run
+Clean Node.js + Express REST API with request logging and structured routes.
 
-```bash
+## Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | / | Welcome message |
+| GET | /users | List of users |
+| GET | /products | List of products |
+
+## Getting Started
+
+**Prerequisites**: Node.js 14+
+
+`ash
+git clone https://github.com/AnandRajput-ASR/simple-rest-api.git
+cd simple-rest-api
 npm install
 node index.js
-```
+`
 
-Then visit in your browser:
+Server runs at http://localhost:3000
 
-- http://localhost:3000/ – Home route  
-- http://localhost:3000/users – List of users  
-- http://localhost:3000/products – List of products  
-```
+## License
+
+MIT
